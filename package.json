@@ -2,7 +2,7 @@
   "name": "login-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JacobWebster/React-Login-Form.git",
+  "homepage": "https://github.com/JacobWebster/Login-React-Form.git",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
