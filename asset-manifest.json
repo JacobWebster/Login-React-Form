@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/JacobWebster/Login-React-Form.git/static/css/main.1ab780d6.chunk.css",
+    "main.js": "/JacobWebster/Login-React-Form.git/static/js/main.9c2a500a.chunk.js",
+    "main.js.map": "/JacobWebster/Login-React-Form.git/static/js/main.9c2a500a.chunk.js.map",
+    "runtime-main.js": "/JacobWebster/Login-React-Form.git/static/js/runtime-main.bb5d07c8.js",
+    "runtime-main.js.map": "/JacobWebster/Login-React-Form.git/static/js/runtime-main.bb5d07c8.js.map",
+    "static/js/2.d6d19b7f.chunk.js": "/JacobWebster/Login-React-Form.git/static/js/2.d6d19b7f.chunk.js",
+    "static/js/2.d6d19b7f.chunk.js.map": "/JacobWebster/Login-React-Form.git/static/js/2.d6d19b7f.chunk.js.map",
+    "index.html": "/JacobWebster/Login-React-Form.git/index.html",
+    "precache-manifest.43779de7a088c4e4c416ed4ebe769466.js": "/JacobWebster/Login-React-Form.git/precache-manifest.43779de7a088c4e4c416ed4ebe769466.js",
+    "service-worker.js": "/JacobWebster/Login-React-Form.git/service-worker.js",
+    "static/css/main.1ab780d6.chunk.css.map": "/JacobWebster/Login-React-Form.git/static/css/main.1ab780d6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb5d07c8.js",
+    "static/js/2.d6d19b7f.chunk.js",
+    "static/css/main.1ab780d6.chunk.css",
+    "static/js/main.9c2a500a.chunk.js"
+  ]
+}
