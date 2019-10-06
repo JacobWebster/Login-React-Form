@@ -1,12 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { render } from "react-dom";
+import './index.sass';
+import Tabs from './components/Tabs';
+import Signup from './components/Signup';
+import Login from './components/Login';
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+function App() {
+  return (
+    <div className="outer-container">
+      <Tabs>
+        <div label="Sign In">
+          <Signup></Signup>
+        </div>
+        <div label="Log In">
+          <Login></Login>
+        </div>
+      </Tabs>
+    </div>
+  );
+}
+
+const container = document.createElement('div');
+document.body.appendChild(container);
+render(<App />, container);
