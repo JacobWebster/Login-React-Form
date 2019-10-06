@@ -11,11 +11,5 @@
     "precache-manifest.43779de7a088c4e4c416ed4ebe769466.js": "/JacobWebster/Login-React-Form.git/precache-manifest.43779de7a088c4e4c416ed4ebe769466.js",
     "service-worker.js": "/Login-React-Form.git/service-worker.js",
     "static/css/main.1ab780d6.chunk.css.map": "/Login-React-Form.git/static/css/main.1ab780d6.chunk.css.map"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.bb5d07c8.js",
-    "static/js/2.d6d19b7f.chunk.js",
-    "static/css/main.1ab780d6.chunk.css",
-    "static/js/main.9c2a500a.chunk.js"
-  ]
+  }
 }
