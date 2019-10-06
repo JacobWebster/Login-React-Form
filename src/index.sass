@@ -26,9 +26,11 @@ body
   flex: 1
   padding: 1.5rem
   display: flex
-  width: 600px
+  max-width: 600px
   margin: 4rem auto
   box-shadow: -1px -2px 11px 5px #ff47002e;
+  @media screen and (max-width: 600px)
+    margin: 0 auto
 
 .inner-container
   background: #2e1f4e
@@ -51,7 +53,7 @@ body
   display: block
   text-decoration: none
   padding: 15px
-  background: #006cff
+  background: #7400ff
   color: #fff
   font-size: 2rem
   width: 100%
@@ -59,7 +61,7 @@ body
   cursor: pointer
   transition: .5s ease
   &:hover 
-    background: rgba(23,67,155 ,.8)
+    background: rgb(132, 23, 155)
 
 .tab-nav .active span
   background: #b8a3ff
@@ -80,7 +82,7 @@ label
 
 label .req 
   margin: .2rem
-  color: #006cff
+  color: #b8a3ff
 
 label.active 
   transform: translateY(50px)
@@ -117,8 +119,12 @@ input
 .row 
   display: inline-flex
   width: 100%
+  @media screen and (max-width: 600px)
+    display: block
   .field-group:last-child
     margin-left: 1.5rem
+    @media screen and (max-width: 600px)
+      margin-left: 0
 
 .button-contain
   display: flex

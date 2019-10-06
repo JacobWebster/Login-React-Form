@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
 import './index.sass';
 import Tabs from './components/Tabs';
 import Signup from './components/Signup';
@@ -21,6 +21,5 @@ function App() {
   );
 }
 
-const container = document.createElement('div');
-document.body.appendChild(container);
-render(<App />, container);
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

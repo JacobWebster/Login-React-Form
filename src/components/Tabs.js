@@ -32,26 +32,28 @@ class Tabs extends Component {
 
     return (
       <div className="inner-container">
-        <ul className="tab-nav">
-          {children.map((child) => {
-            const { label } = child.props;
+        <nav>
+          <ul className="tab-nav">
+            {children.map((child) => {
+              const { label } = child.props;
 
-            return (
-              <Tab
-                activeTab={activeTab}
-                key={label}
-                label={label}
-                onClick={onClickTabItem}
-              />
-            );
-          })}
-        </ul>
-        <div className="main-content">
+              return (
+                <Tab
+                  activeTab={activeTab}
+                  key={label}
+                  label={label}
+                  onClick={onClickTabItem}
+                />
+              );
+            })}
+          </ul>
+        </nav>
+        <section className="main-content">
           {children.map((child) => {
             if (child.props.label !== activeTab) return undefined;
             return child.props.children;
           })}
-        </div>
+        </section>
       </div>
     );
   }
